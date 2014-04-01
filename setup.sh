@@ -5,7 +5,7 @@ CHMOD="/bin/chmod"
 MKDIR="/bin/mkdir"
 RM="/bin/rm"
 
-repo_path='https://raw.githubusercontent.com/PeterDaveHello/Unitial/master/'
+repo_path='https://raw.githubusercontent.com/andytt/Unitial/my/'
 
 os=`uname`
 if [ $os = "FreeBSD" ];then
