@@ -47,6 +47,9 @@ alias df='\df -h'
 alias free='\free -h'
 alias wgetncc='wget --no-check-certificate'
 
+#tmux
+alias tma='tmux attach'
+
 ###alias###
 
 
