@@ -87,6 +87,7 @@ map <C-n> :set nu!<BAR>set nu?<CR>
 " au, autocommand
 autocmd FileType make,gitconfig,gitcommit,apache setlocal et!
 autocmd FileType html,css,javascript setlocal sw=2 ts=2
+au BufRead,BufNewFile *.md set filetype=markdown
 
 "=== IF YOU WANT TO USE THE FOLLOWING FEATURE, PLEASE UNCOMMENT IT BY YOURSELF ==="
 
